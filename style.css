@@ -11,12 +11,12 @@ body{
 
 .top-head{
     width: 100vw;
-    height: 250px;
+    height: 650px;
 
- padding-bottom: 700px;
+
    background-size: cover;
     background-repeat: no-repeat;
-  background-image: url(https://cdn.mos.cms.futurecdn.net/BkXhxoDvBJMYjydSvcGTZS-1280-80.jpg.webp);
+  background-image: url(./imag/cover\ top.jpg);
 }
 .name-cover{
     justify-content: center;
@@ -39,5 +39,31 @@ body{
 
 .container-1{
 
-    
+
+}
+
+.carousel-inner{
+
+  margin: auto;
+
+  width: 1000px;
+height: 600px;
+
+}
+
+h3{
+    width: 1050px;
+}
+
+.beweg-1{
+    display: flex;
+    justify-content: center;
+}
+
+.para-1{
+   
+  
+    width: 1000px;
+   text-align: center;
+    text-align: justify;
 }
