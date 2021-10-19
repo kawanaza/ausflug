@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    
+}
+
+.top-head{
+    width: 100vw;
+    height: 250px;
+
+ padding-bottom: 700px;
+   background-size: cover;
+    background-repeat: no-repeat;
+  background-image: url(https://cdn.mos.cms.futurecdn.net/BkXhxoDvBJMYjydSvcGTZS-1280-80.jpg.webp);
+}
+.name-cover{
+    justify-content: center;
+    font-size: 8em;
+    color: ivory;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.move-title{
+    display: flex;
+   height: 1050px;
+    flex-flow: column;
+    align-items: center;
+   justify-content: center;
+   
+  
+}
+
+
+.container-1{
+
+    
+}
