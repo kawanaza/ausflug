@@ -6,46 +6,50 @@
 
 body{
     width: 100vw;
-    
+   
 }
 
 .top-head{
     width: 100vw;
-    height: 650px;
-
-
-   background-size: cover;
+    height: 350px;
+   background-size:;
     background-repeat: no-repeat;
-  background-image: url(./imag/cover\ top.jpg);
+   
+    background-image: url(./imag/cover\ top.jpg);
 }
 .name-cover{
-    justify-content: center;
+ background: rgba(22, 21, 21, 0.466);
+width: 1000px;
+height:  400px;
+padding-top: 55px;
     font-size: 8em;
-    color: ivory;
-
+    color: #f1f1f1;
+  
+  
     font-family: Arial, Helvetica, sans-serif;
 
 }
 .move-title{
     display: flex;
-   height: 1050px;
     flex-flow: column;
-    align-items: center;
-   justify-content: center;
-   
-  
 }
 
-
-.container-1{
-
+.container-fluid{
+    height: 75px;
+    margin-top: 0;
+    background: #fdd9c3;
+    font-size: 1.3rem;
+    box-shadow: rgba(0, 0, 0, 0.336) .4px 7px 10px ;
+}
+.bg-light{
+padding-top: 0px;
 
 }
+
 
 .carousel-inner{
-
-  margin: auto;
-
+    
+margin: 25px auto ;
   width: 1000px;
 height: 600px;
 
@@ -67,11 +71,93 @@ h3{
    text-align: center;
     text-align: justify;
 }
-.navbar-bottom {
-    min-height: 300px;
-    margin-top: 100px;
-    background-color:#dca56b;
-    padding-top: 35px;
-    color:#FFFFFF;
-    }
 
+
+.girl-bike{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.cart-3-imag{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+.night-image{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    
+}
+.back-footer{
+    margin-top: 25px;
+    width:auto;
+    height: 350px;
+    background:#373941;
+   color: ivory;
+  
+
+}
+
+.ul-footer ul{ 
+     display: flex;
+     height: 350px;
+     justify-content: center;
+    list-style-type: none;
+border: ivory 5px solid;
+    align-items: center;
+    font-size: 60px;
+    justify-content: space-evenly;
+  
+}
+
+.label{
+    font-size: 25px;
+}
+
+.toyota{
+    display: flex;
+    justify-content: center;
+}
+
+.imag-in-wald{
+    display: flex;
+justify-content: space-around;
+    justify-content: center;
+}
+.imag-1-wald{
+width:550px;
+margin: 11px;
+
+
+}
+.imag-1-wald:hover{
+    transform: translate(-10px) ;
+    box-shadow: rgba(0, 0, 0, 0.315) 5px 10px 10px ;
+}
+
+
+
+.imag-2-wald{
+    width:550px;
+    margin: 11px;
+}
+
+.imag-2-wald:hover{
+    transform: translate(10px) ;
+    box-shadow: rgba(0, 0, 0, 0.315) 5px 10px 10px ;
+}
+
+.youtube{
+   
+    width: 850px;
+    
+}
+.move-youtube{
+    display: flex;
+    justify-content: center;
+
+}
