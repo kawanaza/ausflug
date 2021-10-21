@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    
+}
+
+.top-head{
+    width: 100vw;
+    height: 650px;
+
+
+   background-size: cover;
+    background-repeat: no-repeat;
+  background-image: url(./imag/cover\ top.jpg);
+}
+.name-cover{
+    justify-content: center;
+    font-size: 8em;
+    color: ivory;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.move-title{
+    display: flex;
+   height: 1050px;
+    flex-flow: column;
+    align-items: center;
+   justify-content: center;
+   
+  
+}
+
+
+.container-1{
+
+
+}
+
+.carousel-inner{
+
+  margin: auto;
+
+  width: 1000px;
+height: 600px;
+
+}
+
+h3{
+    width: 1050px;
+}
+
+.beweg-1{
+    display: flex;
+    justify-content: center;
+}
+
+.para-1{
+   
+  
+    width: 1000px;
+   text-align: center;
+    text-align: justify;
+}
+I have read a lot of posts about this but I still didn't find an answer. I have a footer that I want to be at the end of the page, not fixed. The problem is that the footer is where the content ends. Look at picture. enter image description here
+
+This is my HTML:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Mobtech - Privatni korisnici </title>
+
+        <!--Ubaci bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="css/basic-template.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Navigation bar -->
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-container">
+                        <span class="sr-only"> Pokazi i sakrij navigaciju </span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                         <span> <img src="Slike/logo.png" alt="LogoSlika"/> </span>
+                        <font face="Roboto Condensed" size="4" color="green"> Mobtech </font>
+                    </a>
+                </div> 
+                <div class="collapse navbar-collapse" id="navbar-container">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"> Početna strana </a> </li>
+                        <li class="active"><a href="#"> Privatni korisnici </a> </li>
+                        <li><a href="poslovni.html"> Poslovni korisnici </a> </li>
+                        <li><a href="uredjaji.html"> Uređaji </a> </li>
+                        <li><a href="onama.html"> O Nama </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br />
+            <div class="container"> <!--Container -->
+
+                <div class="row">
+                    <!-- Kolona na velikom ekranu (lg) prikazuje duzinu jedne kolone, Ekstra small (xs) prikazuje 4 kolone -->
+                    <div class="col-lg-12 bg-success"> 
+                        <p> Outer div </p>
+                        <div class="col-lg-6 bg-primary">
+                            <p> Inner div </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="mojFooter">
+                <font face="Roboto Condensed" size="4"> <center>
+                <div class="container">
+                    <div class="row" style="margin-top: 7px;">
+                         <p> &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &copy; Copyright Ivan Prošić 2016.</p> 
+                    </div>
+                    <div class="bottom-footer">
+                        <div class="col-md-12"> 
+                            <ul class="footer-nav">
+                                <li> <a href="https://www.facebook.com/"> Facebook </a> </li>
+                                <li> <a href="https://twitter.com/"> Twitter </a> </li>
+                                <li> <a href="https://plus.google.com/"> Google+ </a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </font> </center>
+            </footer>
+
+
+
+            <!-- JavaScript fajl -->
+            <script src="js/jquery.min.js"></script>
+            <!-- Kompresovan JavaScript fajl -->
+            <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+This is my CSS, for the footer only:
+
+    .mojFooter{
+    background-color: #f8f8f8;
+    color: #00a651;
+    padding-top: 0px;
+    border-top: 1px solid #e7e7e7;
+    margin-bottom: 0px;
+}
+
+.bottom-footer{
+    border-top: 1px solid #00a651;
+    margin-top: 0px;
+    padding-top: 7px;
+    color: #00a651;
+
+}
+
+.footer-nav li{
+    display: inline;
+    padding: 0px 40px;
+}
+
+.footer-nav a{
+    color: grey;
+    text-decoration: none;
+}
+
