@@ -1,9 +1,13 @@
 html {
     scroll-behavior: smooth;
 }
-#about, #news-events, #contact {
-scroll-margin: 3rem;
+
+#about,
+#news-events,
+#contact {
+    scroll-margin: 3rem;
 }
+
 #myTop {
     display: none;
     position: fixed;
@@ -19,14 +23,17 @@ scroll-margin: 3rem;
     padding: 10px;
     border-radius: 4px;
 }
+
 #myTop:hover {
     background-color: #555;
 }
+
 .custom-underline {
     border-bottom: 2px solid var(--white-color);
     color: var(--white-color);
     padding-bottom: 4px;
 }
+
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%;
@@ -34,6 +41,7 @@ scroll-margin: 3rem;
     height: 0;
     z-index: -100;
 }
+
 .custom-video {
     position: absolute;
     top: 0;
@@ -42,10 +50,12 @@ scroll-margin: 3rem;
     width: 100%;
     height: 100%;
 }
+
 .hero {
     position: relative;
     overflow: hidden;
 }
+
 @media screen and (min-width: 992px) {
     .hero {
         height: 100vh;
@@ -63,6 +73,7 @@ scroll-margin: 3rem;
         bottom: 76px;
     }
 }
+
 .heroText {
     position: absolute;
     z-index: 9;
@@ -72,6 +83,7 @@ scroll-margin: 3rem;
     width: 85%;
     text-align: center;
 }
+
 .bg-light {
     padding-top: 0px;
 }
@@ -122,15 +134,18 @@ scroll-margin: 3rem;
 .label {
     font-size: 25px;
 }
+
 .site-footer {
     width: 100%;
 }
+
 .social {
     text-align: right;
     font-size: smaller;
     padding: 5px;
     text-decoration: none;
 }
+
 a:link,
 a:visited {
     text-decoration: none;
@@ -141,37 +156,46 @@ a:active {
     background-color: rgba(0, 128, 0, 0.384);
     color: white;
 }
+
 .fa-facebook:hover {
     color: white;
     background-color: blue;
 }
+
 .fa-facebook {
     color: blue;
     background-color: white;
 }
+
 .fa-twitter:hover {
     background-color: green;
     color: white;
 }
+
 .fa-twitter {
     background-color: white;
     color: green;
 }
+
 .fa-whatsapp {
     color: green;
 }
+
 .fa-instagram {
     color: orange;
 }
+
 .fa-instagram:hover {
     background-color: orange;
     color: white;
 }
+
 .fa-youtube {
     color: red;
 }
+
 .fa-youtube:hover {
-    color:white;
+    color: white;
     background-color: red;
 }
 
@@ -180,14 +204,19 @@ a:active {
     font-size: 0.9rem;
     letter-spacing: 0.05rem;
     padding: 0.75rem 1rem;
-  }
-  
-  .btn-google {
+}
+
+.btn-google {
     color: white !important;
     background-color: #ea4335;
-  }
-  
-  .btn-facebook {
+}
+
+.btn-facebook {
     color: white !important;
     background-color: #3b5998;
-  }
+}
+.bg-login {
+    background-image: url(./img/Canada-Invermere-Panorama-Resort-MTB-Enduro-Travel-041-cb-3384-1140x760.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
